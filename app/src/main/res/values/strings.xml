@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">PinUpTestGame</string>
+    <string name="hint_name_edit_text">Name</string>
+    <string name="hint_phone_edit_text">Phone</string>
+    <string name="hint_email_edit_text">Email</string>
+    <string name="text_start_btn">Start</string>
 </resources>
