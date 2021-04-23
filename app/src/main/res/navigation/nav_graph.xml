@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/contactInfoFragment">
+    <fragment
+        android:id="@+id/contactInfoFragment"
+        android:name="com.example.pinuptestgame.ui.ContactInfoFragment"
+        android:label="ContactInfoFragment">
+        <action
+            android:id="@+id/action_contactInfoFragment_to_webViewFragment"
+            app:destination="@id/webViewFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/webViewFragment"
+        android:name="com.example.pinuptestgame.ui.WebViewFragment"
+        android:label="WebViewFragment" />
+</navigation>
